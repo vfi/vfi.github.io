@@ -1,0 +1,58 @@
+:root{
+  --accent:#2b7cff;
+  --muted:#666;
+  --border:#ddd;
+  --bg:#fff;
+  --pad:12px;
+}
+body{
+  font-family:system-ui,-apple-system,Segoe UI,Roboto,"Helvetica Neue",Arial;
+  margin:20px;
+  color:#111;
+  background:var(--bg);
+}
+.catalog h1{margin-bottom:1rem}
+.tabs{
+  display:flex;
+  gap:8px;
+  margin-bottom:12px;
+  flex-wrap:wrap;
+}
+.tab-btn{
+  padding:8px 12px;
+  border:1px solid var(--border);
+  background:#fff;
+  cursor:pointer;
+  border-radius:6px;
+}
+.tab-btn[aria-selected="true"]{
+  background:var(--accent);
+  color:#fff;
+  border-color:var(--accent);
+}
+.contents > .category{
+  display:none;
+  border:1px solid var(--border);
+  padding:16px;
+  border-radius:6px;
+  background:#fff;
+}
+.contents > .category.active{
+  display:block;
+}
+table.catalog-table{
+  width:100%;
+  border-collapse:collapse;
+  margin-top:8px;
+}
+.catalog-table th,
+.catalog-table td{
+  padding:8px;
+  border-bottom:1px solid #eee;
+  text-align:left;
+}
+.catalog-table tfoot td{
+  font-weight:600;
+}
+.small{font-size:0.9rem;color:var(--muted)}
+.error{color:#b00020;margin-top:12px} 

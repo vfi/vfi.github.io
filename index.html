@@ -1,37 +1,24 @@
----
-layout: default
-title: Home
----
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1"/>
+  <title>Miniatures Catalog</title>
+  <link rel="stylesheet" href="/assets/css/catalog.css" />
+  <!-- PapaParse for robust CSV parsing -->
+  <script src="https://cdn.jsdelivr.net/npm/papaparse@5.3.2/papaparse.min.js"></script>
+</head>
+<body>
+  <main class="catalog">
+    <h1>Miniatures Catalog</h1>
 
-<div class="posts">
-  {% for post in paginator.posts %}
-  <div class="post">
-    <h1 class="post-title">
-      <a href="{{ post.url | absolute_url }}">
-        {{ post.title }}
-      </a>
-    </h1>
+    <div id="catalog-tabs" class="tabs"></div>
 
-    <span class="post-date">{{ post.date | date_to_string }}</span>
+    <div id="catalog-contents" class="contents"></div>
 
-    {{ post.content }}
-  </div>
-  {% endfor %}
-</div>
+    <div id="catalog-error" class="error" role="status" aria-live="polite"></div>
+  </main>
 
-<div class="pagination">
-  {% if paginator.next_page %}
-    <a class="pagination-item older" href="{{ paginator.next_page_path | absolute_url }}">Older</a>
-  {% else %}
-    <span class="pagination-item older">Older</span>
-  {% endif %}
-  {% if paginator.previous_page %}
-    {% if paginator.page == 2 %}
-      <a class="pagination-item newer" href="{{ '/' | absolute_url }}">Newer</a>
-    {% else %}
-      <a class="pagination-item newer" href="{{ paginator.previous_page_path | absolute_url }}">Newer</a>
-    {% endif %}
-  {% else %}
-    <span class="pagination-item newer">Newer</span>
-  {% endif %}
-</div>
+  <script src="/assets/js/catalog.js" defer></script>
+</body>
+</html>

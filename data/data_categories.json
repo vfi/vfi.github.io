@@ -1,0 +1,12 @@
+[
+  {
+    "id": "infantry",
+    "title": "Infantry",
+    "file": "/data/infantry.csv"
+  },
+  {
+    "id": "vehicles",
+    "title": "Vehicles",
+    "file": "/data/vehicles.csv"
+  }
+]

@@ -46,8 +46,9 @@ permalink: /mini-painting/
   order: 1;
 }
 
-#tab-infinity:checked ~ #content-infinity,
-#tab-warcrow:checked ~ #content-warcrow {
+{% for cat in site.data.painting.categories %}
+#tab-{{ cat.id }}:checked ~ #content-{{ cat.id }}{% unless forloop.last %},
+{% endunless %}{% endfor %} {
   display: block;
 }
 
@@ -95,53 +96,96 @@ permalink: /mini-painting/
   background: #fff;
 }
 
-#subtab-o12:checked ~ #content-o12,
-#subtab-starmada:checked ~ #content-starmada,
-#subtab-torchlight:checked ~ #content-torchlight {
+{% assign all_subs = "" | split: "" %}
+{% for cat in site.data.painting.categories %}{% for sub in cat.subcategories %}{% assign all_subs = all_subs | push: sub %}{% endfor %}{% endfor %}
+{% for sub in all_subs %}
+#subtab-{{ sub.id }}:checked ~ #content-{{ sub.id }}{% unless forloop.last %},{% endunless %}
+{% endfor %}{
   display: block;
+}
+
+/* Table styling */
+.subtab-content table,
+.tab-content table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 1rem;
+}
+
+.subtab-content th,
+.subtab-content td,
+.tab-content th,
+.tab-content td {
+  padding: 0.5rem 1rem;
+  border: 1px solid #dee2e6;
+  text-align: left;
+}
+
+.subtab-content th,
+.tab-content th {
+  background: #f8f9fa;
+  font-weight: 600;
+}
+
+.subtab-content tr:hover,
+.tab-content tr:hover {
+  background: #f8f9fa;
+}
+
+.unit-logo {
+  width: 32px;
+  height: 32px;
+  vertical-align: middle;
 }
 </style>
 
 <div class="tabs">
-  <input type="radio" id="tab-infinity" name="tab-group" checked>
-  <label for="tab-infinity">Infinity</label>
+  {% for cat in site.data.painting.categories %}
+  <input type="radio" id="tab-{{ cat.id }}" name="tab-group"{% if forloop.first %} checked{% endif %}>
+  <label for="tab-{{ cat.id }}">{{ cat.name }}</label>
+  {% endfor %}
 
-  <input type="radio" id="tab-warcrow" name="tab-group">
-  <label for="tab-warcrow">Warcrow</label>
+  {% for cat in site.data.painting.categories %}
+  <div class="tab-content" id="content-{{ cat.id }}">
+    <h2>{{ cat.name }}</h2>
 
-  <div class="tab-content" id="content-infinity">
-    <h2>Infinity</h2>
-
+    {% if cat.subcategories.size > 0 %}
     <div class="subtabs">
-      <input type="radio" id="subtab-o12" name="infinity-subtab" checked>
-      <label for="subtab-o12">O-12</label>
+      {% for sub in cat.subcategories %}
+      <input type="radio" id="subtab-{{ sub.id }}" name="{{ cat.id }}-subtab"{% if forloop.first %} checked{% endif %}>
+      <label for="subtab-{{ sub.id }}">{{ sub.name }}</label>
+      {% endfor %}
 
-      <input type="radio" id="subtab-starmada" name="infinity-subtab">
-      <label for="subtab-starmada">Starmada</label>
-
-      <input type="radio" id="subtab-torchlight" name="infinity-subtab">
-      <label for="subtab-torchlight">Torchlight Brigade</label>
-
-      <div class="subtab-content" id="content-o12">
-        <h3>O-12</h3>
-        <p>Your O-12 miniatures progress will go here.</p>
+      {% for sub in cat.subcategories %}
+      {% assign items = site.data[sub.data_file] %}
+      <div class="subtab-content" id="content-{{ sub.id }}">
+        <h3>{{ sub.name }}</h3>
+        <table>
+          <thead>
+            <tr>
+              <th></th>
+              <th>Name</th>
+              <th>Painted</th>
+              <th>Total</th>
+            </tr>
+          </thead>
+          <tbody>
+            {% for item in items %}
+            <tr>
+              <td>{% if item.logo %}<img src="{{ item.logo }}" alt="" class="unit-logo">{% endif %}</td>
+              <td>{{ item.name }}</td>
+              <td>{{ item.painted }}</td>
+              <td>{{ item.total }}</td>
+            </tr>
+            {% endfor %}
+          </tbody>
+        </table>
       </div>
-
-      <div class="subtab-content" id="content-starmada">
-        <h3>Starmada</h3>
-        <p>Your Starmada miniatures progress will go here.</p>
-      </div>
-
-      <div class="subtab-content" id="content-torchlight">
-        <h3>Torchlight Brigade</h3>
-        <p>Your Torchlight Brigade miniatures progress will go here.</p>
-      </div>
+      {% endfor %}
     </div>
+    {% else %}
+    <p>No subcategories yet.</p>
+    {% endif %}
   </div>
-
-  <div class="tab-content" id="content-warcrow">
-    <h2>Warcrow</h2>
-    <p>Your Warcrow miniatures progress will go here.</p>
-    <!-- Add your Warcrow content here -->
-  </div>
+  {% endfor %}
 </div>

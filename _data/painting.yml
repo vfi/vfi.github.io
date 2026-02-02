@@ -1,0 +1,16 @@
+categories:
+  - id: infinity
+    name: Infinity
+    subcategories:
+      - id: o12
+        name: O-12
+        data_file: infinity_o12
+      - id: starmada
+        name: Starmada
+        data_file: infinity_starmada
+      - id: torchlight
+        name: Torchlight Brigade
+        data_file: infinity_torchlight
+  - id: warcrow
+    name: Warcrow
+    subcategories: []

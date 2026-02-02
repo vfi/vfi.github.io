@@ -137,6 +137,62 @@ permalink: /mini-painting/
   height: 32px;
   vertical-align: middle;
 }
+
+.progress-summary {
+  margin-bottom: 1rem;
+  padding: 1rem;
+  background: #f8f9fa;
+  border-radius: 4px;
+}
+
+.progress-bar {
+  height: 24px;
+  background: #e9ecef;
+  border-radius: 4px;
+  overflow: hidden;
+  margin-top: 0.5rem;
+}
+
+.progress-bar-fill {
+  height: 100%;
+  background: linear-gradient(90deg, #28a745, #20c997);
+  transition: width 0.3s ease;
+}
+
+.progress-text {
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+
+.percent-badge {
+  display: inline-block;
+  padding: 0.25rem 0.6rem;
+  border-radius: 1rem;
+  font-size: 0.85rem;
+  font-weight: 600;
+  min-width: 3rem;
+  text-align: center;
+}
+
+.percent-0 {
+  background: #e9ecef;
+  color: #6c757d;
+}
+
+.percent-low {
+  background: #fff3cd;
+  color: #856404;
+}
+
+.percent-mid {
+  background: #d4edda;
+  color: #155724;
+}
+
+.percent-high {
+  background: #28a745;
+  color: #fff;
+}
 </style>
 
 <div class="tabs">
@@ -158,8 +214,25 @@ permalink: /mini-painting/
 
       {% for sub in cat.subcategories %}
       {% assign items = site.data[sub.data_file] %}
+      {% assign total_painted = 0 %}
+      {% assign total_items = 0 %}
+      {% for item in items %}
+        {% assign total_painted = total_painted | plus: item.painted %}
+        {% assign total_items = total_items | plus: item.total %}
+      {% endfor %}
+      {% if total_items > 0 %}
+        {% assign percentage = total_painted | times: 100 | divided_by: total_items %}
+      {% else %}
+        {% assign percentage = 0 %}
+      {% endif %}
       <div class="subtab-content" id="content-{{ sub.id }}">
         <h3>{{ sub.name }}</h3>
+        <div class="progress-summary">
+          <span class="progress-text">{{ total_painted }} / {{ total_items }} painted ({{ percentage }}%)</span>
+          <div class="progress-bar">
+            <div class="progress-bar-fill" style="width: {{ percentage }}%;"></div>
+          </div>
+        </div>
         <table>
           <thead>
             <tr>
@@ -167,6 +240,7 @@ permalink: /mini-painting/
               <th>Name</th>
               <th>Painted</th>
               <th>Total</th>
+              <th>%</th>
             </tr>
           </thead>
           <tbody>
@@ -176,6 +250,7 @@ permalink: /mini-painting/
               <td>{{ item.name }}</td>
               <td>{{ item.painted }}</td>
               <td>{{ item.total }}</td>
+              <td>{% if item.total > 0 %}{% assign pct = item.painted | times: 100 | divided_by: item.total %}{% if pct == 0 %}<span class="percent-badge percent-0">{{ pct }}%</span>{% elsif pct < 50 %}<span class="percent-badge percent-low">{{ pct }}%</span>{% elsif pct < 100 %}<span class="percent-badge percent-mid">{{ pct }}%</span>{% else %}<span class="percent-badge percent-high">{{ pct }}%</span>{% endif %}{% else %}<span class="percent-badge percent-0">-</span>{% endif %}</td>
             </tr>
             {% endfor %}
           </tbody>

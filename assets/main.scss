@@ -1,0 +1,347 @@
+---
+---
+
+// Terminal color palette
+$terminal-bg: #0a0a0a;
+$terminal-green: #00ff00;
+$terminal-green-dim: #00aa00;
+$terminal-green-bright: #33ff33;
+$terminal-green-dark: #006600;
+$terminal-border: #00aa00;
+
+// Override Minima variables
+$background-color: $terminal-bg;
+$text-color: $terminal-green;
+$brand-color: $terminal-green-bright;
+$link-base-color: $terminal-green-bright;
+$link-visited-color: $terminal-green-dim;
+$link-hover-color: $terminal-green-bright;
+$border-color: $terminal-border;
+$code-background-color: #001100;
+$table-text-color: $terminal-green;
+$table-zebra-color: #001a00;
+$table-header-bg-color: #002200;
+$table-header-border: $terminal-border;
+$table-border-color: $terminal-border;
+
+@import "minima";
+
+// Global terminal styling
+body {
+  background-color: $terminal-bg !important;
+  color: $terminal-green !important;
+  font-family: 'Courier New', Consolas, monospace !important;
+  text-shadow: 0 0 5px rgba(0, 255, 0, 0.3);
+}
+
+// Ensure all text uses terminal font
+* {
+  font-family: 'Courier New', Consolas, monospace !important;
+}
+
+// Header
+.site-header {
+  background-color: $terminal-bg;
+  border-bottom: 1px solid $terminal-border;
+}
+
+.site-title, .site-title:visited {
+  color: $terminal-green-bright !important;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.site-nav .page-link {
+  color: $terminal-green;
+  &:hover {
+    color: $terminal-green-bright;
+    text-decoration: none;
+  }
+}
+
+// Links
+a {
+  color: $terminal-green-bright;
+  &:visited {
+    color: $terminal-green-dim;
+  }
+  &:hover {
+    color: #ffffff;
+    text-shadow: 0 0 10px $terminal-green;
+  }
+}
+
+// Content wrapper
+.wrapper {
+  background-color: transparent;
+}
+
+.page-content {
+  background-color: $terminal-bg;
+}
+
+// Post and page titles
+.post-title, .page-heading, h1, h2, h3, h4, h5, h6 {
+  color: $terminal-green-bright;
+  text-shadow: 0 0 8px rgba(0, 255, 0, 0.4);
+}
+
+// Footer
+.site-footer {
+  background-color: $terminal-bg;
+  border-top: 1px solid $terminal-border;
+  color: $terminal-green-dim;
+
+  .footer-col-wrapper {
+    color: $terminal-green-dim;
+  }
+
+  .contact-list, .social-media-list {
+    li {
+      color: $terminal-green-dim;
+    }
+    a {
+      color: $terminal-green;
+      &:hover {
+        color: $terminal-green-bright;
+      }
+    }
+  }
+
+  .footer-heading {
+    color: $terminal-green-bright;
+  }
+}
+
+// Home page post list
+.post-list {
+  li {
+    border-bottom: 1px solid $terminal-green-dark;
+    padding-bottom: 1rem;
+    margin-bottom: 1rem;
+  }
+
+  .post-meta {
+    color: $terminal-green-dim;
+  }
+
+  .post-link {
+    color: $terminal-green-bright;
+    &:hover {
+      color: #ffffff;
+      text-shadow: 0 0 10px $terminal-green;
+    }
+  }
+}
+
+// Post content
+.post-content {
+  color: $terminal-green;
+
+  p, li, dd, dt {
+    color: $terminal-green;
+  }
+
+  blockquote {
+    color: $terminal-green-dim;
+    border-left: 4px solid $terminal-green-dark;
+    background: #001100;
+    padding: 0.5rem 1rem;
+  }
+
+  hr {
+    border-color: $terminal-green-dark;
+  }
+}
+
+// Post meta
+.post-meta {
+  color: $terminal-green-dim;
+}
+
+// Pagination
+.pagination {
+  color: $terminal-green;
+
+  a {
+    color: $terminal-green-bright;
+    &:hover {
+      color: #ffffff;
+    }
+  }
+}
+
+// RSS and feed icons
+.svg-icon {
+  fill: $terminal-green;
+}
+
+.social-media-list {
+  .svg-icon {
+    fill: $terminal-green;
+  }
+  li:hover .svg-icon {
+    fill: $terminal-green-bright;
+  }
+}
+
+// Forms and inputs (if any)
+input, textarea, select {
+  background-color: #001100;
+  border: 1px solid $terminal-border;
+  color: $terminal-green;
+  font-family: 'Courier New', Consolas, monospace;
+
+  &:focus {
+    outline: none;
+    border-color: $terminal-green-bright;
+    box-shadow: 0 0 5px $terminal-green;
+  }
+}
+
+button, .button, input[type="submit"] {
+  background-color: $terminal-green-dark;
+  border: 1px solid $terminal-green;
+  color: $terminal-green-bright;
+  font-family: 'Courier New', Consolas, monospace;
+  cursor: pointer;
+
+  &:hover {
+    background-color: $terminal-green;
+    color: $terminal-bg;
+  }
+}
+
+// Lists
+ul, ol {
+  color: $terminal-green;
+}
+
+// Definition lists
+dl {
+  dt {
+    color: $terminal-green-bright;
+  }
+  dd {
+    color: $terminal-green;
+  }
+}
+
+// Horizontal rule
+hr {
+  border: none;
+  border-top: 1px solid $terminal-green-dark;
+}
+
+// Blockquotes
+blockquote {
+  color: $terminal-green-dim;
+  border-left: 4px solid $terminal-green-dark;
+  font-style: italic;
+}
+
+// Strong and emphasis
+strong, b {
+  color: $terminal-green-bright;
+}
+
+em, i {
+  color: $terminal-green;
+}
+
+// Site nav mobile menu
+.site-nav {
+  background-color: $terminal-bg;
+  border: 1px solid $terminal-border;
+
+  .menu-icon > svg path {
+    fill: $terminal-green;
+  }
+
+  @media screen and (max-width: 600px) {
+    background-color: $terminal-bg;
+    border: 1px solid $terminal-border;
+
+    .page-link {
+      color: $terminal-green;
+      border-top: 1px solid $terminal-green-dark;
+    }
+  }
+}
+
+// Code blocks
+pre, code {
+  background-color: #001100;
+  border: 1px solid $terminal-border;
+  color: $terminal-green;
+  font-family: 'Courier New', Consolas, monospace;
+}
+
+// Tables
+table {
+  border-collapse: collapse;
+  border: 1px solid $terminal-border;
+
+  th, td {
+    border: 1px solid $terminal-border;
+    padding: 0.5rem 1rem;
+  }
+
+  th {
+    background-color: #002200;
+    color: $terminal-green-bright;
+  }
+
+  tr:hover {
+    background-color: #001a00;
+  }
+}
+
+// Scanline effect (optional subtle effect)
+body::before {
+  content: "";
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  background: repeating-linear-gradient(
+    0deg,
+    rgba(0, 0, 0, 0.1),
+    rgba(0, 0, 0, 0.1) 1px,
+    transparent 1px,
+    transparent 2px
+  );
+  z-index: 9999;
+}
+
+// Selection color
+::selection {
+  background: $terminal-green;
+  color: $terminal-bg;
+}
+
+::-moz-selection {
+  background: $terminal-green;
+  color: $terminal-bg;
+}
+
+// Scrollbar styling
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: $terminal-bg;
+}
+
+::-webkit-scrollbar-thumb {
+  background: $terminal-green-dark;
+  border-radius: 4px;
+  &:hover {
+    background: $terminal-green;
+  }
+}

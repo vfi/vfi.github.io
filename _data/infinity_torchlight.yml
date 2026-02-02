@@ -1,3 +1,140 @@
-- name: Example Unit
+- name: "BEASTHUNTERS Free Guild"
+  logo: https://assets.corvusbelli.net/army/img/logo/units/beasthunters-free-guild-null-1.svg
   painted: 0
-  total: 1
+  total: 0
+- name: "Clandestine Action Unit NIGHTSHADES"
+  logo: https://assets.corvusbelli.net/army/img/logo/units/nightshades-1-1.svg
+  painted: 0
+  total: 0
+- name: "DIGGERS, Armed Prospectors"
+  logo: https://assets.corvusbelli.net/army/img/logo/units/diggers-armed-prospectors-1-1.svg
+  painted: 0
+  total: 0
+- name: "FIREBAT Attack Wing"
+  logo: https://assets.corvusbelli.net/army/img/logo/units/firebat-attack-wing-1-1.svg
+  painted: 0
+  total: 0
+- name: "FUZZBOTS"
+  logo: https://assets.corvusbelli.net/army/img/logo/units/fuzzbots-1-1.svg
+  painted: 0
+  total: 0
+- name: "HELLBLAZERS, CQB Spec. Unit"
+  logo: https://assets.corvusbelli.net/army/img/logo/units/hellblazers-cqb-spec-unit-1-1.svg
+  painted: 0
+  total: 0
+- name: "HIPPOLYTA, Amazon Officer"
+  logo: https://assets.corvusbelli.net/army/img/logo/units/hippolyta-amazon-officer-1-1.svg
+  painted: 0
+  total: 0
+- name: "JAMIE ARANTES, Netroid Handler"
+  logo: https://assets.corvusbelli.net/army/img/logo/units/jamie-arantes-netroid-handler-1-1.svg
+  painted: 0
+  total: 0
+- name: "JAMIE ARANTES, Netroid Rover"
+  logo: https://assets.corvusbelli.net/army/img/logo/units/jamie-arantes-netroid-rover-1-1.svg
+  painted: 0
+  total: 0
+- name: "Jackboots"
+  logo: https://assets.corvusbelli.net/army/img/logo/units/jackboots-1-1.svg
+  painted: 0
+  total: 0
+- name: "KAPPA UNIT"
+  logo: https://assets.corvusbelli.net/army/img/logo/units/kappa-unit-1-1.svg
+  painted: 0
+  total: 0
+- name: "KLUDGERS Resolution Team"
+  logo: https://assets.corvusbelli.net/army/img/logo/units/klugders-resolution-team-1-1.svg
+  painted: 0
+  total: 0
+- name: "KYTTÄ COPPERBOTS"
+  logo: https://assets.corvusbelli.net/army/img/logo/units/kyttae-copperbots-1-1.svg
+  painted: 0
+  total: 0
+- name: "MILLICENT COPPERBOTS"
+  logo: https://assets.corvusbelli.net/army/img/logo/units/millicent-copperbots-1-1.svg
+  painted: 0
+  total: 0
+- name: "MOONRAKERS, Forward Remote Devices"
+  logo: https://assets.corvusbelli.net/army/img/logo/units/moonrakers-forward-remote-devices-1-1.svg
+  painted: 0
+  total: 0
+- name: "Ment Agents, PSID"
+  logo: https://assets.corvusbelli.net/army/img/logo/units/ment-agents-1-1.svg
+  painted: 0
+  total: 0
+- name: "NIMRODS Wetworks Detachment"
+  logo: https://assets.corvusbelli.net/army/img/logo/units/nimrods-wetworks-det-1-1.svg
+  painted: 0
+  total: 0
+- name: "OKO COPPERBOTS"
+  logo: https://assets.corvusbelli.net/army/img/logo/units/oko-copperbots-1-1.svg
+  painted: 0
+  total: 0
+- name: "PEELER COPPERBOTS"
+  logo: https://assets.corvusbelli.net/army/img/logo/units/peeler-copperbots-1-1.svg
+  painted: 0
+  total: 0
+- name: "PSI-Cops"
+  logo: https://assets.corvusbelli.net/army/img/logo/units/psi-cops-1-1.svg
+  painted: 0
+  total: 0
+- name: "RAVENEYE Officers"
+  logo: https://assets.corvusbelli.net/army/img/logo/units/raveneye-officers-1-1.svg
+  painted: 0
+  total: 0
+- name: "SILVERSTAR PRIME"
+  logo: https://assets.corvusbelli.net/army/img/logo/units/silverstar-prime-1-1.svg
+  painted: 0
+  total: 0
+- name: "SILVERSTAR Rovers"
+  logo: https://assets.corvusbelli.net/army/img/logo/units/silverstar-rovers-1-1.svg
+  painted: 0
+  total: 0
+- name: "SONYA LACROIX, Glo-Pol Marshall"
+  logo: https://assets.corvusbelli.net/army/img/logo/units/sonya-lacroix-glo-pol-marshall-1-1.svg
+  painted: 0
+  total: 0
+- name: "STORMBOTS"
+  logo: https://assets.corvusbelli.net/army/img/logo/units/stormbots-1-1.svg
+  painted: 0
+  total: 0
+- name: "STRIDERS, Scouting Forward Unit"
+  logo: https://assets.corvusbelli.net/army/img/logo/units/striders-scouting-forward-unit-1-1.svg
+  painted: 0
+  total: 0
+- name: "Specialized Support Unit LAMBDA"
+  logo: https://assets.corvusbelli.net/army/img/logo/units/specialized-support-unit-lambda-1-1.svg
+  painted: 0
+  total: 0
+- name: "SĀCHĀ, Xenotech Hunters"
+  logo: https://assets.corvusbelli.net/army/img/logo/units/sacha-xenotech-hunters-1-1.svg
+  painted: 0
+  total: 0
+- name: "TINKERS, Maintenance Support Company"
+  logo: https://assets.corvusbelli.net/army/img/logo/units/tinkers-maintenance-support-company-1-1.svg
+  painted: 0
+  total: 0
+- name: "VIDOCQ, Multipurpose Security Brigade"
+  logo: https://assets.corvusbelli.net/army/img/logo/units/vidocq-1-1.svg
+  painted: 0
+  total: 0
+- name: "WARCORS, WAR CORRESPONDENTS"
+  logo: https://assets.corvusbelli.net/army/img/logo/units/warcors-war-correspondents-1-1.svg
+  painted: 0
+  total: 0
+- name: "WAVERIDERS Cybercombat Team"
+  logo: https://assets.corvusbelli.net/army/img/logo/units/waveriders-cybercombat-team-1-1.svg
+  painted: 0
+  total: 0
+- name: "WRECKERS, Fire Recon Armored Squadron"
+  logo: https://assets.corvusbelli.net/army/img/logo/units/wreckers-fire-recon-armored-squadron-1-1.svg
+  painted: 0
+  total: 0
+- name: "YELLOWJACKETS Transorbital Team"
+  logo: https://assets.corvusbelli.net/army/img/logo/units/yellowjackets-transorbital-team-1-1.svg
+  painted: 0
+  total: 0
+- name: "YUDBOTS"
+  logo: https://assets.corvusbelli.net/army/img/logo/units/yudbots-1-1.svg
+  painted: 0
+  total: 0

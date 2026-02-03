@@ -11,6 +11,18 @@ categories:
       - id: torchlight
         name: Torchlight Brigade
         data_file: infinity_torchlight
+      - id: combined_army
+        name: Combined Army
+        data_file: infinity_combined_army
+      - id: morat
+        name: Morat Aggression Forces
+        data_file: infinity_morat
+      - id: shasvastii
+        name: Shasvastii Expeditionary Force
+        data_file: infinity_shasvastii
+      - id: onyx
+        name: Onyx Contact Force
+        data_file: infinity_onyx
   - id: warcrow
     name: Warcrow
     subcategories: []

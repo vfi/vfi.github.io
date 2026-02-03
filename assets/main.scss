@@ -72,13 +72,20 @@ a {
   }
 }
 
-// Content wrapper
+// Content wrapper - wider layout
 .wrapper {
   background-color: transparent;
+  max-width: 1400px;
+  width: 95%;
 }
 
 .page-content {
   background-color: $terminal-bg;
+
+  .wrapper {
+    max-width: 1400px;
+    width: 95%;
+  }
 }
 
 // Post and page titles
@@ -343,5 +350,68 @@ body::before {
   border-radius: 4px;
   &:hover {
     background: $terminal-green;
+  }
+}
+
+// Responsive layout
+@media screen and (max-width: 900px) {
+  .wrapper,
+  .page-content .wrapper {
+    width: 98%;
+  }
+
+  .site-header .wrapper {
+    width: 98%;
+  }
+
+  table {
+    th, td {
+      padding: 0.4rem 0.6rem;
+      font-size: 0.9rem;
+    }
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .wrapper,
+  .page-content .wrapper,
+  .site-header .wrapper,
+  .site-footer .wrapper {
+    width: 100%;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .site-title {
+    font-size: 1.2rem;
+    letter-spacing: 1px;
+  }
+
+  .post-title {
+    font-size: 1.5rem;
+  }
+
+  h1 { font-size: 1.6rem; }
+  h2 { font-size: 1.4rem; }
+  h3 { font-size: 1.2rem; }
+
+  table {
+    display: block;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+
+    th, td {
+      padding: 0.3rem 0.5rem;
+      font-size: 0.85rem;
+      white-space: nowrap;
+    }
+  }
+
+  .post-content {
+    font-size: 0.95rem;
+
+    p, li {
+      line-height: 1.6;
+    }
   }
 }

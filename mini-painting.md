@@ -26,7 +26,7 @@ permalink: /mini-painting/
 <div class="tabs">
   {% for cat in site.data.painting.categories %}
   <input type="radio" id="tab-{{ cat.id }}" name="tab-group"{% if forloop.first %} checked{% endif %}>
-  <label for="tab-{{ cat.id }}">{{ cat.name }}</label>
+  <label for="tab-{{ cat.id }}">{% if cat.icon %}<img src="{{ cat.icon }}" alt="{{ cat.name }}" class="tab-icon">{% else %}{{ cat.name }}{% endif %}</label>
   {% endfor %}
 
   {% for cat in site.data.painting.categories %}
@@ -36,7 +36,7 @@ permalink: /mini-painting/
     <div class="subtabs">
       {% for sub in cat.subcategories %}
       <input type="radio" id="subtab-{{ sub.id }}" name="{{ cat.id }}-subtab"{% if forloop.first %} checked{% endif %}>
-      <label for="subtab-{{ sub.id }}">{{ sub.name }}</label>
+      <label for="subtab-{{ sub.id }}">{% if sub.icon %}<img src="{{ sub.icon }}" alt="" class="subtab-icon">{% endif %}{{ sub.name }}</label>
       {% endfor %}
 
       {% for sub in cat.subcategories %}

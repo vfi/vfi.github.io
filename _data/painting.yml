@@ -1,34 +1,52 @@
 categories:
   - id: infinity
     name: Infinity
+    icon: https://assets.corvusbelli.net/corvus-brand-book-2025/infinity/infinity-white.webp
     subcategories:
       - id: o12
         name: O-12
+        icon: https://assets.corvusbelli.net/army/img/logo/factions/o-12.svg
         data_file: infinity_o12
       - id: starmada
         name: Starmada
+        icon: https://assets.corvusbelli.net/army/img/logo/factions/starmada.svg
         data_file: infinity_starmada
       - id: torchlight
         name: Torchlight Brigade
+        icon: https://assets.corvusbelli.net/army/img/logo/factions/torchlight-brigade.svg
         data_file: infinity_torchlight
       - id: combined_army
         name: Combined Army
+        icon: https://assets.corvusbelli.net/army/img/logo/factions/combined-army.svg
         data_file: infinity_combined_army
       - id: morat
         name: Morat Aggression Forces
+        icon: https://assets.corvusbelli.net/army/img/logo/factions/morat.svg
         data_file: infinity_morat
       - id: shasvastii
         name: Shasvastii Expeditionary Force
+        icon: https://assets.corvusbelli.net/army/img/logo/factions/shasvastii.svg
         data_file: infinity_shasvastii
       - id: onyx
         name: Onyx Contact Force
+        icon: https://assets.corvusbelli.net/army/img/logo/factions/onyx.svg
         data_file: infinity_onyx
   - id: warcrow
     name: Warcrow
+    icon: https://assets.corvusbelli.net/warcrow/web/logo_warcrow.png
     subcategories:
       - id: hegemony
         name: Hegemony
+        icon: https://assets.corvusbelli.net/warcrow/army/img/logo/factions/hegemony-of-embersig.svg
         data_file: warcrow_hegemony
       - id: northern_tribes
         name: Northern Tribes
+        icon: https://assets.corvusbelli.net/warcrow/army/img/logo/factions/northern-tribes.svg
         data_file: warcrow_northern_tribes
+  - id: deadzone
+    name: Deadzone
+    icon: https://companion.manticgames.com/res/public/img/deadzone-logo.webp
+    subcategories:
+      - id: veer_myn
+        name: Veer-Myn
+        data_file: deadzone_veer_myn

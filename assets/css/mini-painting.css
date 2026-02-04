@@ -135,6 +135,19 @@
   object-fit: cover;
 }
 
+.tab-icon {
+  height: 20px;
+  width: auto;
+  vertical-align: middle;
+}
+
+.subtab-icon {
+  height: 16px;
+  width: auto;
+  margin-right: 0.4rem;
+  vertical-align: middle;
+}
+
 /* Progress bar */
 .progress-summary {
   margin-bottom: 1rem;
@@ -243,9 +256,17 @@ th.sortable.sort-desc::after {
     font-size: 0.9rem;
   }
 
+  .tab-icon {
+    height: 16px;
+  }
+
   .subtabs label {
     padding: 0.4rem 0.8rem;
     font-size: 0.8rem;
+  }
+
+  .subtab-icon {
+    height: 14px;
   }
 
   .tab-content,
@@ -270,6 +291,10 @@ th.sortable.sort-desc::after {
     margin-right: 0;
   }
 
+  .tab-icon {
+    height: 14px;
+  }
+
   .tabs input[type="radio"]:checked + label {
     border-bottom: 1px solid #00aa00;
     margin-bottom: 0;
@@ -289,6 +314,10 @@ th.sortable.sort-desc::after {
   .subtabs label {
     flex-shrink: 0;
     white-space: nowrap;
+  }
+
+  .subtab-icon {
+    height: 12px;
   }
 
   .tab-content,

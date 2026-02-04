@@ -25,4 +25,7 @@ categories:
         data_file: infinity_onyx
   - id: warcrow
     name: Warcrow
-    subcategories: []
+    subcategories:
+      - id: hegemony
+        name: Hegemony
+        data_file: warcrow_hegemony

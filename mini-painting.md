@@ -31,7 +31,6 @@ permalink: /mini-painting/
 
   {% for cat in site.data.painting.categories %}
   <div class="tab-content" id="content-{{ cat.id }}">
-    <h2>{{ cat.name }}</h2>
 
     {% if cat.subcategories.size > 0 %}
     <div class="subtabs">
@@ -54,7 +53,6 @@ permalink: /mini-painting/
         {% assign percentage = 0 %}
       {% endif %}
       <div class="subtab-content" id="content-{{ sub.id }}">
-        <h3>{{ sub.name }}</h3>
         <div class="progress-summary">
           <span class="progress-text">{{ total_painted }} / {{ total_items }} painted ({{ percentage }}%)</span>
           <div class="progress-bar">

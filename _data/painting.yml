@@ -29,3 +29,6 @@ categories:
       - id: hegemony
         name: Hegemony
         data_file: warcrow_hegemony
+      - id: northern_tribes
+        name: Northern Tribes
+        data_file: warcrow_northern_tribes

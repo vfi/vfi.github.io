@@ -131,6 +131,8 @@
   height: 48px;
   max-width: none;
   vertical-align: middle;
+  border-radius: 50%;
+  object-fit: cover;
 }
 
 /* Progress bar */

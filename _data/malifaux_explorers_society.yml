@@ -20,6 +20,9 @@ groups:
   - name: Lord Cooper
     painted: 2
     total: 2
+  - name: Malisaurus Rex
+    painted: 1
+    total: 1
   - name: Model 9
     painted: 1
     total: 1

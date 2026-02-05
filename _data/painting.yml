@@ -50,3 +50,11 @@ categories:
       - id: veer_myn
         name: Veer-Myn
         data_file: deadzone_veer_myn
+  - id: malifaux
+    name: Malifaux
+    icon: https://malifauxrules.com/Images/Logos/M4E-Logo_Explorers-B.png
+    subcategories:
+      - id: explorers_society
+        name: Explorer's Society
+        icon: https://malifauxcrewbuilder.com/assets/assets/icons/ExplorersSociety.png
+        data_file: malifaux_explorers_society

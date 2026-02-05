@@ -1,0 +1,313 @@
+grouped: true
+groups:
+- name: Apex
+  items:
+  - name: Ahool
+    painted: 0
+    total: 0
+  - name: Artemis
+    painted: 0
+    total: 0
+  - name: Crypsis Corps
+    painted: 0
+    total: 0
+  - name: Empyrean Eagle
+    painted: 0
+    total: 0
+  - name: Kainhearse
+    painted: 0
+    total: 0
+  - name: Lord Cooper
+    painted: 0
+    total: 0
+  - name: Model 9
+    painted: 0
+    total: 0
+  - name: Runaway
+    painted: 0
+    total: 0
+  - name: Ullr
+    painted: 0
+    total: 0
+  - name: Vatagi Huntsman
+    painted: 0
+    total: 0
+- name: Bygone
+  items:
+  - name: Ancient Construct
+    painted: 0
+    total: 0
+  - name: Aua Warrior
+    painted: 0
+    total: 0
+  - name: Kett
+    painted: 0
+    total: 0
+  - name: Oro Boro
+    painted: 0
+    total: 0
+  - name: Parson
+    painted: 0
+    total: 0
+  - name: Slipstreamer
+    painted: 0
+    total: 0
+  - name: The First Light
+    painted: 0
+    total: 0
+  - name: The Iron Matron
+    painted: 0
+    total: 0
+  - name: Tiri
+    painted: 0
+    total: 0
+  - name: Unseelie Engine
+    painted: 0
+    total: 0
+- name: Cadmus
+  items:
+  - name: Ahool
+    painted: 0
+    total: 0
+  - name: Archivist
+    painted: 0
+    total: 0
+  - name: Berserker Husk
+    painted: 0
+    total: 0
+  - name: Cavatica
+    painted: 0
+    total: 0
+  - name: Dr. Meredith Stanley
+    painted: 0
+    total: 0
+  - name: Eyes and Ears
+    painted: 0
+    total: 0
+  - name: Kainhearse
+    painted: 0
+    total: 0
+  - name: Nexus
+    painted: 0
+    total: 0
+  - name: Nightsilk Creeper
+    painted: 0
+    total: 0
+  - name: Shambling Nest
+    painted: 0
+    total: 0
+  - name: Spelleater
+    painted: 0
+    total: 0
+- name: DUA
+  items:
+  - name: Alleyway Echo
+    painted: 0
+    total: 0
+  - name: Brocken Spectre
+    painted: 0
+    total: 0
+  - name: Daeva
+    painted: 0
+    total: 0
+  - name: English Ivan
+    painted: 0
+    total: 0
+  - name: Eva Havenhand
+    painted: 0
+    total: 0
+  - name: Gibson DeWalt
+    painted: 0
+    total: 0
+  - name: Host Ducat
+    painted: 0
+    total: 0
+  - name: Jin Baccara
+    painted: 0
+    total: 0
+  - name: Mr. Mordrake
+    painted: 0
+    total: 0
+  - name: Nocturne
+    painted: 0
+    total: 0
+- name: EVS
+  items:
+  - name: Beau Fishbocker
+    painted: 0
+    total: 0
+  - name: Calypso Mk II
+    painted: 0
+    total: 0
+  - name: Dr. Beebe
+    painted: 0
+    total: 0
+  - name: Harata Ngaatoro
+    painted: 0
+    total: 0
+  - name: Harpooner
+    painted: 0
+    total: 0
+  - name: Kiya Manimi
+    painted: 0
+    total: 0
+  - name: Machinist
+    painted: 0
+    total: 0
+  - name: Maxine Agassiz
+    painted: 0
+    total: 0
+  - name: Orville Agassiz
+    painted: 0
+    total: 0
+  - name: Slipstreamer
+    painted: 0
+    total: 0
+  - name: Tidecaller
+    painted: 0
+    total: 0
+- name: Seeker
+  items:
+  - name: Austera and Twigge
+    painted: 0
+    total: 0
+  - name: Cayce Jones
+    painted: 0
+    total: 0
+  - name: Grave Goo
+    painted: 0
+    total: 0
+  - name: Jedza
+    painted: 0
+    total: 0
+  - name: Lamplighter
+    painted: 0
+    total: 0
+  - name: Mikhail XVI
+    painted: 0
+    total: 0
+  - name: Moorwraith
+    painted: 0
+    total: 0
+  - name: Sophie
+    painted: 0
+    total: 0
+  - name: The Damned
+    painted: 0
+    total: 0
+  - name: The Kurgan
+    painted: 0
+    total: 0
+  - name: Yaksha
+    painted: 0
+    total: 0
+- name: Society
+  items:
+  - name: Hopeful Prospect
+    painted: 0
+    total: 0
+  - name: Mr. Ngaatoro
+    painted: 0
+    total: 0
+  - name: Tannenbaum
+    painted: 0
+    total: 0
+- name: Syndicate
+  items:
+  - name: Anya Lycarayen
+    painted: 0
+    total: 0
+  - name: Catalan Brawler
+    painted: 0
+    total: 0
+  - name: Catalan Rifleman
+    painted: 0
+    total: 0
+  - name: Cayce Jones
+    painted: 0
+    total: 0
+  - name: Corvis Rook
+    painted: 0
+    total: 0
+  - name: Drudge
+    painted: 0
+    total: 0
+  - name: Operative
+    painted: 0
+    total: 0
+  - name: Sovereign
+    painted: 0
+    total: 0
+  - name: Surveyor
+    painted: 0
+    total: 0
+  - name: The Brass Bull
+    painted: 0
+    total: 0
+  - name: Winston Finnigan
+    painted: 0
+    total: 0
+  - name: Yannic Waller
+    painted: 0
+    total: 0
+- name: Versatile
+  items:
+  - name: Alpinist
+    painted: 0
+    total: 0
+  - name: Bellhop Porter
+    painted: 0
+    total: 0
+  - name: Botanist
+    painted: 0
+    total: 0
+  - name: Hand of Janus
+    painted: 0
+    total: 0
+  - name: Intrepid Effigy
+    painted: 0
+    total: 0
+  - name: Intrepid Emissary
+    painted: 0
+    total: 0
+  - name: Intrepid Fate
+    painted: 0
+    total: 0
+  - name: Jessie Halliday
+    painted: 0
+    total: 0
+  - name: Vernon and Welles
+    painted: 0
+    total: 0
+- name: Wastrel
+  items:
+  - name: Alleyway Echo
+    painted: 0
+    total: 0
+  - name: Cryptologist
+    painted: 0
+    total: 0
+  - name: Desper LaRaux
+    painted: 0
+    total: 0
+  - name: Host Ducat
+    painted: 0
+    total: 0
+  - name: Huckster
+    painted: 0
+    total: 0
+  - name: Lucas McCabe
+    painted: 0
+    total: 0
+  - name: Luna
+    painted: 0
+    total: 0
+  - name: Rough Rider
+    painted: 0
+    total: 0
+  - name: Ruffian
+    painted: 0
+    total: 0
+  - name: Sidir Alchibal
+    painted: 0
+    total: 0

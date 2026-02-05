@@ -95,12 +95,71 @@
   background: #0a0a0a;
 }
 
+/* Group headings for grouped data */
+.group-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 1.5rem 0 0.5rem 0;
+  padding: 0.5rem 0.75rem;
+  background: #001a00;
+  border-left: 3px solid #00ff00;
+  gap: 1rem;
+}
+
+.group-header:first-of-type {
+  margin-top: 0.5rem;
+}
+
+.group-heading {
+  color: #00ff00;
+  font-family: 'Courier New', Consolas, monospace;
+  font-size: 1.1rem;
+  text-transform: uppercase;
+  margin: 0;
+  white-space: nowrap;
+}
+
+.group-progress {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  flex: 1;
+  max-width: 300px;
+}
+
+.group-progress-bar {
+  flex: 1;
+  height: 12px;
+  background: #001100;
+  border-radius: 3px;
+  overflow: hidden;
+  border: 1px solid #006600;
+  min-width: 60px;
+}
+
+.group-progress-fill {
+  height: 100%;
+  background: linear-gradient(90deg, #006600, #00ff00);
+  transition: width 0.3s ease;
+}
+
+.group-progress-pct {
+  color: #00ff00;
+  font-family: 'Courier New', Consolas, monospace;
+  font-size: 0.85rem;
+  font-weight: 600;
+  min-width: 3rem;
+  text-align: right;
+}
+
 /* Table styling */
 .subtab-content table,
 .tab-content table {
   width: 100%;
   border-collapse: collapse;
-  margin-top: 1rem;
+  margin-top: 0.5rem;
+  margin-bottom: 1rem;
 }
 
 .subtab-content th,
@@ -281,6 +340,21 @@ th.sortable.sort-desc::after {
 }
 
 @media screen and (max-width: 600px) {
+  .group-header {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.5rem;
+  }
+
+  .group-progress {
+    width: 100%;
+    max-width: none;
+  }
+
+  .group-heading {
+    font-size: 1rem;
+  }
+
   .tabs {
     flex-direction: column;
   }

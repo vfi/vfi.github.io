@@ -180,6 +180,11 @@
   text-transform: uppercase;
 }
 
+.subtab-content tbody tr:nth-child(even),
+.tab-content tbody tr:nth-child(even) {
+  background: #152c11;
+}
+
 .subtab-content tr:hover,
 .tab-content tr:hover {
   background: #001a00;

@@ -1,127 +1,127 @@
 - name: "BIT & KISS!"
   logo: https://assets.corvusbelli.net/army/img/logo/units/bit-kiss-1-1.svg
-  painted: 0
-  total: 0
+  painted: 2
+  total: 2
 - name: "CASKUDA WCD Armored Jump Operator"
   logo: https://assets.corvusbelli.net/army/img/logo/units/caskuda-1-1.svg
   painted: 0
-  total: 0
+  total: 1
 - name: "Cube Jäger, Mercenary Recoverers"
   logo: https://assets.corvusbelli.net/army/img/logo/units/cube-jaeger-1-1.svg
-  painted: 0
-  total: 0
+  painted: 1
+  total: 1
 - name: "E-DRONES"
   logo: https://assets.corvusbelli.net/army/img/logo/units/e-drones-1-1.svg
-  painted: 0
-  total: 0
+  painted: 1
+  total: 1
 - name: "EXOs, EXRAH EXECUTIVE OFFICERS"
   logo: https://assets.corvusbelli.net/army/img/logo/units/exos-exrah-executive-officers-1-1.svg
   painted: 0
-  total: 0
+  total: 1
 - name: "FRAACTA Drop Unit"
   logo: https://assets.corvusbelli.net/army/img/logo/units/fraacta-drop-unit-1-1.svg
-  painted: 0
-  total: 0
+  painted: 1
+  total: 3
 - name: "GLYPH WARCORS, Ur Hegemony Journalists"
   logo: https://assets.corvusbelli.net/army/img/logo/units/glyph-warcors-ur-hegemony-journalists-1-1.svg
   painted: 0
   total: 0
 - name: "GREIF OPERATORS"
   logo: https://assets.corvusbelli.net/army/img/logo/units/greif-operators-1-1.svg
-  painted: 0
-  total: 0
+  painted: 1
+  total: 1
 - name: "IKADRON BATROID"
   logo: https://assets.corvusbelli.net/army/img/logo/units/ikadron-batroids-1-1.svg
-  painted: 0
-  total: 0
+  painted: 2
+  total: 2
 - name: "KURGAT Regiment of Assault Engineers"
   logo: https://assets.corvusbelli.net/army/img/logo/units/kurgat-reg-of-assault-engineers-1-1.svg
   painted: 0
-  total: 0
+  total: 1
 - name: "M-DRONES"
   logo: https://assets.corvusbelli.net/army/img/logo/units/m-drones-1-1.svg
-  painted: 0
-  total: 0
+  painted: 1
+  total: 1
 - name: "MAAKREP Trackers Unit"
   logo: https://assets.corvusbelli.net/army/img/logo/units/maakrep-trackers-unit-1-1.svg
-  painted: 0
-  total: 0
+  painted: 1
+  total: 1
 - name: "MALIGNOS Shasvastii Deep Incursion Corps"
   logo: https://assets.corvusbelli.net/army/img/logo/units/malignos-1-1.svg
-  painted: 0
-  total: 0
+  painted: 1
+  total: 3
 - name: "MED-TECH OBSIDON MEDCHANOIDS"
   logo: https://assets.corvusbelli.net/army/img/logo/units/med-tech-obsidon-medchanoid-1-1.svg
-  painted: 0
-  total: 0
+  painted: 1
+  total: 1
 - name: "NEXUS Operatives"
   logo: https://assets.corvusbelli.net/army/img/logo/units/nexus-operatives-1-1.svg
-  painted: 0
-  total: 0
+  painted: 1
+  total: 1
 - name: "Nexus-7 Operative Kerr-Nau"
   logo: https://assets.corvusbelli.net/army/img/logo/units/nexus-7-operative-kerr-nau-1-1.svg
-  painted: 0
-  total: 0
+  painted: 1
+  total: 1
 - name: "OVERDRON Batroids"
   logo: https://assets.corvusbelli.net/army/img/logo/units/overdron-batroids-1-1.svg
-  painted: 0
-  total: 0
+  painted: 1
+  total: 1
 - name: "Q-DRONES"
   logo: https://assets.corvusbelli.net/army/img/logo/units/q-drones-1-1.svg
-  painted: 0
-  total: 0
+  painted: 1
+  total: 1
 - name: "R-DRONES"
   logo: https://assets.corvusbelli.net/army/img/logo/units/r-drones-1-1.svg
-  painted: 0
-  total: 0
+  painted: 1
+  total: 1
 - name: "RODOK, Morat Armed Imposition Detachment"
   logo: https://assets.corvusbelli.net/army/img/logo/units/rodok-1-1.svg
-  painted: 0
-  total: 0
+  painted: 4
+  total: 5
 - name: "SLAVE DRONES"
   logo: https://assets.corvusbelli.net/army/img/logo/units/slave-drones-1-1.svg
-  painted: 0
-  total: 0
+  painted: 2
+  total: 2
 - name: "SURYAT Assault Heavy Infantry"
   logo: https://assets.corvusbelli.net/army/img/logo/units/suryats-1-1.svg
-  painted: 0
-  total: 0
+  painted: 1
+  total: 1
 - name: "Shasvastii Special Armoured Corp SPHINX"
   logo: https://assets.corvusbelli.net/army/img/logo/units/sphinx-1-1.svg
-  painted: 0
-  total: 0
+  painted: 1
+  total: 2
 - name: "Shasvastii Tactical Dominance Special Wing NOCTIFERS"
   logo: https://assets.corvusbelli.net/army/img/logo/units/shasvastii-noctifers-1-1.svg
-  painted: 0
-  total: 0
+  painted: 1
+  total: 2
 - name: "Special Operative KO DALI"
   logo: https://assets.corvusbelli.net/army/img/logo/units/special-operative-ko-dali-1-1.svg
   painted: 0
-  total: 0
+  total: 1
 - name: "SĀCHĀ, Xenotech Hunters"
   logo: https://assets.corvusbelli.net/army/img/logo/units/sacha-xenotech-hunters-1-1.svg
   painted: 0
   total: 0
 - name: "T-DRONES"
   logo: https://assets.corvusbelli.net/army/img/logo/units/t-drones-1-1.svg
-  painted: 0
-  total: 0
+  painted: 1
+  total: 1
 - name: "UMBRA LEGATES"
   logo: https://assets.corvusbelli.net/army/img/logo/units/umbra-legates-1-1.svg
-  painted: 0
-  total: 0
+  painted: 1
+  total: 1
 - name: "UMBRA SAMARITANS"
   logo: https://assets.corvusbelli.net/army/img/logo/units/umbra-samaritans-1-1.svg
-  painted: 0
-  total: 0
+  painted: 1
+  total: 1
 - name: "UNIDRON BATROIDS"
   logo: https://assets.corvusbelli.net/army/img/logo/units/unidron-batroids-1-1.svg
-  painted: 0
-  total: 0
+  painted: 7
+  total: 7
 - name: "Umbra Samaritan NOURKIAS, Kai'l Rank"
   logo: https://assets.corvusbelli.net/army/img/logo/units/nourkias-null-1.svg
   painted: 0
-  total: 0
+  total: 1
 - name: "WCD Base Operators"
   logo: https://assets.corvusbelli.net/army/img/logo/units/wcd-base-operators-1-1.svg
   painted: 0
@@ -136,9 +136,9 @@
   total: 0
 - name: "XEODRON Batroids"
   logo: https://assets.corvusbelli.net/army/img/logo/units/xeodron-batroids-1-1.svg
-  painted: 0
-  total: 0
+  painted: 2
+  total: 2
 - name: "ÍMETRON"
   logo: https://assets.corvusbelli.net/army/img/logo/units/imetron-1-1.svg
-  painted: 0
-  total: 0
+  painted: 2
+  total: 2

@@ -36,7 +36,7 @@
   total: 4
 - name: "Corporal"
   logo: https://assets.corvusbelli.net/warcrow/army/img/profiles/warcrow-img-corporal.jpg
-  painted: 0
+  painted: 1
   total: 1
 - name: "Dragoslav Bjelogríc, Drago the Anvil"
   logo: https://assets.corvusbelli.net/warcrow/army/img/profiles/warcrow-img-dragoslav-bjelogrc-drago-the-anvil.png
@@ -60,7 +60,7 @@
   total: 0
 - name: "Hetman"
   logo: https://assets.corvusbelli.net/warcrow/army/img/profiles/warcrow-img-hetman.png
-  painted: 0
+  painted: 1
   total: 1
 - name: "Lady Télia"
   logo: https://assets.corvusbelli.net/warcrow/army/img/profiles/warcrow-img-lady-telia.png
@@ -76,7 +76,7 @@
   total: 1
 - name: "Nadezhda Lazard, Champion of Embersig"
   logo: https://assets.corvusbelli.net/warcrow/army/img/profiles/warcrow-img-nadezhda.png
-  painted: 0
+  painted: 1
   total: 1
 - name: "Naergon Caladren"
   logo: https://assets.corvusbelli.net/warcrow/army/img/profiles/warcrow-img-naergon.png

@@ -16,7 +16,7 @@
   total: 0
 - name: "Ansera Noighman"
   logo: https://assets.corvusbelli.net/warcrow/army/img/profiles/warcrow-img-ansera.png
-  painted: 0
+  painted: 1
   total: 1
 - name: "Black Angels"
   logo: https://assets.corvusbelli.net/warcrow/army/img/profiles/warcrow-img-angeles-negros.png
@@ -52,7 +52,7 @@
   total: 1
 - name: "Gale Falchion"
   logo: https://assets.corvusbelli.net/warcrow/army/img/profiles/warcrow-img-alfanje-del-vendaval.png
-  painted: 0
+  painted: 1
   total: 1
 - name: "Gunnery Corporal"
   logo: https://assets.corvusbelli.net/warcrow/army/img/profiles/warcrow-img-gunnery-corporal.jpg
@@ -92,7 +92,7 @@
   total: 2
 - name: "Strategos"
   logo: https://assets.corvusbelli.net/warcrow/army/img/profiles/warcrow-img-strategos.png
-  painted: 0
+  painted: 1
   total: 1
 - name: "Trabor Slepmund"
   logo: https://assets.corvusbelli.net/warcrow/army/img/profiles/warcrow-img-trabor-slepmund.png

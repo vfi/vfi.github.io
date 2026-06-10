@@ -4,6 +4,9 @@
 - name: "Brood Mother"
   painted: 0
   total: 1
+- name: "Crone Mother"
+  painted: 0
+  total: 0
 - name: "Crawler"
   painted: 4
   total: 4
@@ -40,6 +43,9 @@
 - name: "Overcharger"
   painted: 0
   total: 2
+- name: "Overcharger Shockgun Platform"
+  painted: 0
+  total: 1
 - name: "Pack Leader"
   painted: 1
   total: 1
@@ -69,7 +75,7 @@
   total: 1
 - name: "Thrall"
   painted: 0
-  total: 0
+  total: 4
 - name: "Trapper"
   painted: 0
   total: 2

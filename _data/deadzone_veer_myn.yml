@@ -17,7 +17,7 @@
   painted: 2
   total: 2
 - name: "Hacker Halftail"
-  painted: 0
+  painted: 1
   total: 1
 - name: "Kyro, Teraton Pest Control"
   painted: 0
@@ -50,7 +50,7 @@
   painted: 1
   total: 1
 - name: "Progenitor"
-  painted: 0
+  painted: 2
   total: 2
 - name: "Rat Swarm"
   painted: 0
@@ -68,7 +68,7 @@
   painted: 0
   total: 1
 - name: "The Piper"
-  painted: 0
+  painted: 1
   total: 1
 - name: "Thorn"
   painted: 1

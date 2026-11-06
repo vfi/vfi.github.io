@@ -12,7 +12,7 @@
   total: 1
 - name: "Cadmus-Naish Agent SHESKIIN"
   logo: https://assets.corvusbelli.net/army/img/logo/units/cadmus-naish-agent-sheskiin-1-1.svg
-  painted: 0
+  painted: 1
   total: 2
 - name: "E-DRONES"
   logo: https://assets.corvusbelli.net/army/img/logo/units/e-drones-1-1.svg
@@ -76,7 +76,7 @@
   total: 5
 - name: "Shasvastii Armed Imposition Detachment GWAILOS"
   logo: https://assets.corvusbelli.net/army/img/logo/units/shasvastii-gwailos-1-1.svg
-  painted: 0
+  painted: 1
   total: 3
 - name: "Shasvastii Light Support Unit HAIDUKS"
   logo: https://assets.corvusbelli.net/army/img/logo/units/shasvastii-haiduks-1-1.svg
